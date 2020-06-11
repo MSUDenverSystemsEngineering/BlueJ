@@ -186,6 +186,7 @@ Try {
 
 		# <Perform Uninstallation tasks here>
 		Execute-MSI -Action Uninstall -Path '{93E05243-FD0A-4792-870A-C830372771AD}'
+		Start-Sleep -Seconds 30
 
 		##*===============================================
 		##* POST-UNINSTALLATION
