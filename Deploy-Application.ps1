@@ -153,7 +153,7 @@ Try {
 		[string]$installPhase = 'Post-Installation'
 
 		## <Perform Post-Installation tasks here>
-		
+
 		## Display a message at the end of the install
 		If (-not $useDefaultMsi) {}
 	}
